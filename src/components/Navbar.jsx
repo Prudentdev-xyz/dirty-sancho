@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/logo.png";
+import logo from "../assets/DirtySanchoLogo.png";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -36,9 +36,11 @@ export default function Navbar() {
         w-full
         z-50
         transition-all duration-300
-        ${scrolled
-          ? "bg-primary/95 backdrop-blur-md border-b border-white/10"
-          : "bg-transparent"}
+        ${
+          scrolled
+            ? "bg-primary/95 backdrop-blur-md border-b border-white/10"
+            : "bg-transparent"
+        }
       `}
     >
       <nav
@@ -51,8 +53,9 @@ export default function Navbar() {
         "
       >
         {/* Logo */}
-        
-         <a href="#home"
+
+        <a
+          href="#home"
           onClick={(e) => handleNavClick(e, "#home")}
           className="
             flex items-center gap-3
@@ -89,8 +92,8 @@ export default function Navbar() {
         >
           {navLinks.map((link) => (
             <li key={link.label}>
-              
-               <a href={link.href}
+              <a
+                href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
                 className="
                   text-sm font-medium tracking-wide
@@ -107,8 +110,9 @@ export default function Navbar() {
         </ul>
 
         {/* Desktop CTA */}
-        
-         <a href="https://t.me/+A4-H5qu-pVRiZjFi"
+
+        <a
+          href="https://t.me/+A4-H5qu-pVRiZjFi"
           target="_blank"
           rel="noopener noreferrer"
           className="
@@ -158,8 +162,8 @@ export default function Navbar() {
             <ul className="flex flex-col gap-4 mt-4 list-none">
               {navLinks.map((link) => (
                 <li key={link.label}>
-                  
-                   <a href={link.href}
+                  <a
+                    href={link.href}
                     onClick={(e) => handleNavClick(e, link.href)}
                     className="
                       block
@@ -176,8 +180,8 @@ export default function Navbar() {
               ))}
             </ul>
 
-            
-            <a href="https://t.me/+A4-H5qu-pVRiZjFi"
+            <a
+              href="https://t.me/+A4-H5qu-pVRiZjFi"
               target="_blank"
               rel="noopener noreferrer"
               className="
