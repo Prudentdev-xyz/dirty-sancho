@@ -2,7 +2,7 @@
 
 > The ghost in the machine. Born from tragedy, resurrected as a legend.
 
-A dark, lore-driven pre-launch website for **$DSANCHO** — a community-first meme coin on Solana. Built to not look AI-generated, vibe-coded, or templated. Every pixel is intentional.
+A dark, lore-driven pre-launch website for **$DSANCHO** a community-first meme coin on Solana. Built to not look AI-generated, vibe-coded, or templated. Every pixel is intentional.
 
 ---
 
@@ -82,7 +82,7 @@ Mono:        Courier New, monospace
 
 ## The Lore
 
-Dirty Sancho is a Tarsier from the misty jungles of Bohol, Philippines. Innocent. Destroyed by camera flashes from tourists. He died by headbanging a tree rather than live in captivity — and was resurrected as **$DSANCHO**.
+Dirty Sancho is a Tarsier from the misty jungles of Bohol, Philippines. Innocent. Destroyed by camera flashes from tourists. He died by headbanging a tree rather than live in captivity and was resurrected as **$DSANCHO**.
 
 > _"See in the dark before the flash hits the world."_
 
