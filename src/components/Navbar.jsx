@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from "../assets/DirtySanchoLogo.png";
+import logo from "../assets/SanchoLogo.jpg";
 
 const navLinks = [
   { label: "Home", id: "home" },
@@ -195,7 +195,13 @@ export default function Navbar() {
           <img
             src={logo}
             alt="Dirty Sancho Logo"
-            style={{ height: 40, width: 40, objectFit: "contain" }}
+            style={{
+              height: 40,
+              width: 40,
+              objectFit: "cover",
+              borderRadius: "8px",
+              border: "1px solid rgba(230,255,63,0.25)",
+            }}
           />
           <span
             style={{
