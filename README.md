@@ -1,16 +1,93 @@
-# React + Vite
+# Dirty Sancho — $DSANCHO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> The ghost in the machine. Born from tragedy, resurrected as a legend.
 
-Currently, two official plugins are available:
+A dark, lore-driven pre-launch website for **$DSANCHO** — a community-first meme coin on Solana. Built to not look AI-generated, vibe-coded, or templated. Every pixel is intentional.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Tool      | Detail                                                 |
+| --------- | ------------------------------------------------------ |
+| Framework | React + Vite                                           |
+| Styling   | Inline styles + scoped CSS (no Tailwind in components) |
+| Animation | Framer Motion                                          |
+| Icons     | Lucide React                                           |
+| Font      | Inter (Google Fonts)                                   |
+| Chain     | Solana                                                 |
+| Launch    | Pump.fun                                               |
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```
+src/
+├── assets/
+│   ├── DirtySanchoLogo.png
+│   └── hero.png
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── TheLegend.jsx
+│   ├── TickerBanner.jsx
+│   ├── WhyDirtySancho.jsx
+│   ├── Tokenomics.jsx
+│   ├── Roadmap.jsx
+│   ├── Community.jsx
+│   └── Footer.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run dev server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+---
+
+## Design System
+
+```
+Background:  #062B1F  — dark jungle green
+Accent:      #E6FF3F  — electric yellow-green
+Font:        Inter, system-ui
+Mono:        Courier New, monospace
+```
+
+---
+
+## Links
+
+| Platform    | URL                            |
+| ----------- | ------------------------------ |
+| Telegram    | https://t.me/+A4-H5qu-pVRiZjFi |
+| Twitter / X | https://x.com/DirtySan_99      |
+| Launch      | https://pump.fun               |
+
+---
+
+## The Lore
+
+Dirty Sancho is a Tarsier from the misty jungles of Bohol, Philippines. Innocent. Destroyed by camera flashes from tourists. He died by headbanging a tree rather than live in captivity — and was resurrected as **$DSANCHO**.
+
+> _"See in the dark before the flash hits the world."_
+
+---
+
+## License
+
+MIT
